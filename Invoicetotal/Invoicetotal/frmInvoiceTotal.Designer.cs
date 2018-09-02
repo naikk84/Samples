@@ -91,6 +91,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.Location = new System.Drawing.Point(145, 182);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
@@ -132,10 +133,12 @@
             this.txtTotal.TabIndex = 9;
             this.txtTotal.TabStop = false;
             // 
-            // Form1
+            // frmInvoiceTotal
             // 
+            this.AcceptButton = this.btnCalcualte;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtDiscountAmount);
@@ -147,7 +150,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "frmInvoiceTotal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Invoice Total";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
