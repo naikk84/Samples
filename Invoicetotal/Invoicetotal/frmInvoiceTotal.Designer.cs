@@ -88,6 +88,7 @@
             this.btnCalcualte.TabIndex = 2;
             this.btnCalcualte.Text = "&Calculate";
             this.btnCalcualte.UseVisualStyleBackColor = true;
+            this.btnCalcualte.Click += new System.EventHandler(this.btnCalcualte_Click);
             // 
             // btnExit
             // 
@@ -98,6 +99,7 @@
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // txtsubtotal
             // 
@@ -139,7 +141,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(367, 255);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtDiscountAmount);
             this.Controls.Add(this.txtDiscountPrercent);
@@ -153,7 +155,7 @@
             this.Name = "frmInvoiceTotal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Invoice Total";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 
