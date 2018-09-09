@@ -1,0 +1,10 @@
+C:\Users\naikk\Desktop\.Net programming\Invoicetotal\Invoicetotal\bin\Debug\Invoicetotal.exe.config
+C:\Users\naikk\Desktop\.Net programming\Invoicetotal\Invoicetotal\bin\Debug\Invoicetotal.exe
+C:\Users\naikk\Desktop\.Net programming\Invoicetotal\Invoicetotal\bin\Debug\Invoicetotal.pdb
+C:\Users\naikk\Desktop\.Net programming\Invoicetotal\Invoicetotal\obj\Debug\Invoicetotal.csprojAssemblyReference.cache
+C:\Users\naikk\Desktop\.Net programming\Invoicetotal\Invoicetotal\obj\Debug\Invoicetotal.Properties.Resources.resources
+C:\Users\naikk\Desktop\.Net programming\Invoicetotal\Invoicetotal\obj\Debug\Invoicetotal.csproj.GenerateResource.cache
+C:\Users\naikk\Desktop\.Net programming\Invoicetotal\Invoicetotal\obj\Debug\Invoicetotal.csproj.CoreCompileInputs.cache
+C:\Users\naikk\Desktop\.Net programming\Invoicetotal\Invoicetotal\obj\Debug\Invoicetotal.exe
+C:\Users\naikk\Desktop\.Net programming\Invoicetotal\Invoicetotal\obj\Debug\Invoicetotal.pdb
+C:\Users\naikk\Desktop\.Net programming\Invoicetotal\Invoicetotal\obj\Debug\Invoicetotal.frmInvoiceTotal.resources
